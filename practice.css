@@ -1,0 +1,145 @@
+/* *{
+    font-family: 'Times New Roman';
+}
+#box{
+    background-color: blue;
+    color: white;
+}
+
+.heading{
+    color: red;
+}
+
+button{
+    background-color: green;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+/* #outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 15px;
+} */
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}  */
+
+
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+#navbar{
+    height: 60px;
+    background-color: black;
+
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 180px;
+    text-decoration: none;
+} */
+
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-image: url(nature-pic.jpg);
+    background-size: cover;
+    color: white;
+    position: fixed;
+    right: 0px;
+    top: 250px;
+} */
+
+
+
+/* .navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+} */
+
+
+
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+@media (max-width: 300px){
+    div{
+        background-color: green;
+    }
+}
+@media (min-width: 300px) and (max-width: 400px){
+    div{
+        background-color: pink;
+    }
+}
+@media (min-width: 400px) and (max-width: 600px){
+    div{
+        background-color: red;
+    }
+}
+@media (min-width: 600px){
+    div{
+        background-color: blue;
+    }
+} */
+
+
+.loader{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border :20px solid black;
+    border-top: 20px solid yellow ;
+    animation: loadAnimate 1s ease-in 0s infinite normal;
+}
+
+@keyframes loadAnimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

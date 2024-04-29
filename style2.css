@@ -1,0 +1,47 @@
+/* div{
+    height: 100px ;
+    width: 100px;
+    background-color: blueviolet;
+    border-width: 2px;
+    border-style: solid;
+    border-color: chartreuse;
+    text-align: left;
+    font-size: 30px; */
+    /* border-radius: 50%; */
+    /* padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px; */
+    /* padding: 25px; */
+    /* padding: 25px;
+    margin: 25px; */
+/* } */
+/* h1{
+    height: 50px;
+    width: 150px;
+    background-color: pink;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: black;
+    text-align: center;
+} */
+
+
+/* div{
+    background-color: pink;
+    display: inline;
+}
+button{
+    display: block;
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#box2{
+    display: none;
+}
